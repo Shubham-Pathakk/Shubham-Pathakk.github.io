@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us · BikeVault</title>
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <link rel="stylesheet" href=".css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Navbar styles */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #000;
+      z-index: 1;
+    }
+
+    header nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      height: 60px;
+    }
+
+    header nav ul {
+      display: flex;
+      list-style-type: none;
+    }
+
+    header nav ul li {
+      margin-right: 10px;
+    }
+
+    header nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+      transition: all 0.2s ease-in-out;
+    }
+
+    header nav ul li a:hover {
+      color: #0099ff;
+    }
+
+    /* main section */
+    body {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    footer {
+      position: relative;
+      width: 100%;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      transition: all 0.2s ease-in-out;
+    }
+
+    footer a:hover {
+      color: #0099ff;
+    }
+
+    /* Animations */
+    @keyframes slide-in {
+      from {
+        transform: translateY(-100%);
+      }
+
+      to {
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <b>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="admins.html">ADMINS</a></li>
+          <li><a href="signin.html">SIGN IN</a></li>
+          <li><a href="signup.html">SIGN UP</a></li>
+          <li><a href="aboutus.html">ABOUT US</a></li>
+        </ul>
+      </nav>
+    </b>
+  </header>
+  <br>
+  <br>
+  <br><br>
+  <main>
+    <img src="aboutmain.png" alt="mission">
+    <br><br>
+    <div id="about">
+      <h2>About Us</h1>
+        <p>
+          Welcome to BikeVault, your ultimate source for all things motorcycles!
+
+          We are a team of motorcycle enthusiasts who have a passion for all things two-wheeled. Our goal is to provide
+          accurate and up-to-date information about the latest motorcycles on the market. Whether you're a seasoned
+          rider or just getting started, we've got you covered.
+
+          On BikeVault, you'll find detailed information about different brands and models of motorcycles, including
+          specs, features, and reviews. We also have a team of experts who are always ready to answer any questions you
+          may have about motorcycles.
+
+          We understand that buying a motorcycle can be a big decision and that's why we've made it our mission to
+          provide all the information you need to make an informed decision. We believe that everyone should have access
+          to the information they need to make the best choice for them.
+
+          Our website is constantly updated with the latest news and reviews about motorcycles. We also have a community
+          section where you can connect with other motorcycle enthusiasts, share your experiences, and get advice from
+          experts.
+
+          We are committed to providing the best possible user experience and are always looking for ways to improve our
+          website. We appreciate your feedback and are always open to suggestions on how we can improve.
+
+          Thank you for choosing BikeVault as your go-to source for motorcycle information. Happy riding!
+        </p>
+<br>
+        <h2>
+          The Team
+        </h2>
+        <p>
+          BikeVault is run by a team of motorcycle enthusiasts who have a passion for all things two-wheeled. We are
+          dedicated to providing accurate and up-to-date information about the latest motorcycles on the market.
+        </p>
+<br>
+        <h2>Contact Us</h2>
+        <p>If you have any questions or feedback, please don't hesitate to contact us using the form below or email us
+          at
+          <a href="mailto:info@bikevault.com">info@bikevault.com</a>
+        </p>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <input type="submit" value="Send">
+        </form>
+        <br>
+        <h2>Follow Us</h2>
+        <div class="social-links">
+          <a href="https://www.facebook.com/BikeVault">Facebook</a>
+          <a href="https://twitter.com/BikeVault">Twitter</a>
+          <a href="https://www.instagram.com/BikeVault">Instagram</a>
+        </div>
+    </div>
+  </main>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="sitemap.html">
+            <h3>Sitemap</h3>
+          </a>
+          <a href="contactus.html">
+            <h3>Contact Us</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright text-center">
+      <p>Copyright &copy; 2023 BikeVault</p>
+    </div>
+  </footer>
+</body>
+
+</html>
